@@ -126,7 +126,6 @@ fetch('/js/productos.json')
     }
     function comprarButtonClicked(){
         containerCarritoItems.innerHTML = ``;
-        
         actualizarPrecioTotalCarrito();
         compraFinalizada();
     }
