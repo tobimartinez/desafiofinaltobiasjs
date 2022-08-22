@@ -8,4 +8,3 @@ function formFinalizado(){
     swal("Muchas gracias!", "Valoramos mucho tu mensaje", "success");
 }
 
-document.getElementById("finalizarForm").addEventListener("click", formFinalizado);
